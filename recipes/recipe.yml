@@ -30,6 +30,8 @@ modules:
         - gnome-software
         - malcontent-control
         - gnome-tour
+        - htop
+        - nvtop
 
   - type: default-flatpaks
     configurations:
