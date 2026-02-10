@@ -34,7 +34,7 @@ modules:
         - nvtop
 
   - type: default-flatpaks
-        install:
+    install:
         - com.brave.Browser
         - org.gnome.Loupe
         - com.valvesoftware.Steam
