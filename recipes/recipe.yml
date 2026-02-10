@@ -34,8 +34,22 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-          - org.mozilla.firefox
+          - com.brave.Browser
           - org.gnome.Loupe
+          - com.valvesoftware.Steam
+          - com.vysp3r.ProtonPlus
+          - io.github.kolunmi.Bazaar
+          - org.freedesktop.Platform.ffmpeg-full
+          - org.freedesktop.Platform.openh264
+          - org.gnome.Calculator
+          - org.gnome.Calendar
+          - org.gnome.Logs
+          - org.gnome.NautilusPreviewer
+          - org.gnome.Papers
+          - org.gnome.Platform
+          - org.gnome.TextEditor
+          - org.gnome.clocks
+          - org.gnome.font-viewer
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
