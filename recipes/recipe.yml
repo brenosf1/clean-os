@@ -24,6 +24,7 @@ modules:
       packages:
         - zsh
         - steam-devices
+        - zoxide
       exclude:
         - steam
     remove:
