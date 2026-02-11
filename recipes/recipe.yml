@@ -35,9 +35,6 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - scope: user
-        # you can override the title to make inclusion of both system and user repos clearer
-        title: Flathub (user)
       - notify: true
         scope: system
         title: Flathub (system)
