@@ -39,6 +39,14 @@ modules:
         - nvtop
         - adw-gtk3-theme
         - distrobox
+        - solaar-udev
+        - openrgb-udev-rules
+        - fedora-workstation-backgrounds
+        - gnome-shell-extension-launch-new-instance
+        - gnome-shell-extension-places-menu
+        - gnome-shell-extension-window-list
+        - gnome-shell-extension-apps-menu
+        - vim
 
   - type: default-flatpaks
     configurations:
