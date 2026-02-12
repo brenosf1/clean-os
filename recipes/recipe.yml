@@ -19,7 +19,7 @@ modules:
 
   - from-file: dnf.yml
 
-  - from-file: default-flatpaks.yml
+  - from-file: base/default-flatpaks.yml
 
   - from-file: gnome-extensions.yml
       
