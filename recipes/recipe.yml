@@ -17,41 +17,7 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
-  - type: dnf
-    repos:
-      nonfree: rpmfusion
-    install:
-      packages:
-        - zsh
-        - steam-devices
-        - zoxide
-      exclude:
-        - steam
-    remove:
-      packages:
-        # example: removing firefox (in favor of the flatpak)
-        # "firefox" is the main package, "firefox-langpacks" is a dependency
-        - firefox
-        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-        - gnome-software
-        - malcontent-control
-        - gnome-tour
-        - htop
-        - nvtop
-        - adw-gtk3-theme
-        - distrobox
-        - solaar-udev
-        - openrgb-udev-rules
-        - gnome-shell-extension-launch-new-instance
-        - gnome-shell-extension-places-menu
-        - gnome-shell-extension-window-list
-        - gnome-shell-extension-apps-menu
-        - vim
-        - vim-data
-        - vim-minimal
-        - vim-filesystem
-        - vim-common
-        - vim-enhanced
+  - from-file: dnf.yml
 
   - type: default-flatpaks
     configurations:
