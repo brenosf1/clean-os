@@ -1,4 +1,8 @@
 modules:
+  - type: script
+    snippets:
+      - "mkdir -p /etc/skel/.config"
+  
   - type: files
     files:
       - source: system
