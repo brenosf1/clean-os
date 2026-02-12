@@ -12,14 +12,8 @@ image-version: latest # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - type: files
-    files:
-      - source: monitor.xml
-        destination: /usr/etc/skel/.config/monitors.xml
-      
-      - source: system
-        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-
+  - from-files: base/files.yml
+  
   - from-file: base/dnf.yml
 
   - from-file: base/default-flatpaks.yml
