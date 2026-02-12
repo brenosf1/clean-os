@@ -8,5 +8,5 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
-      - source: files/monitors.xml
+      - source: monitors.xml
         destination: /etc/skel/.config/monitors.xml
