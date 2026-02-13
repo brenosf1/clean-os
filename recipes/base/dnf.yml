@@ -2,6 +2,8 @@ modules:
 - type: dnf
   repos:
     nonfree: rpmfusion
+    copr:
+    - trixieua/morewaita-icon-theme
   install:
     packages:
       - zsh
@@ -9,6 +11,7 @@ modules:
       - zoxide
       - gnome-shell-extension-gsconnect
       - oh-my-posh
+      - morewaita-icon-theme
     exclude:
       - steam
   remove:
