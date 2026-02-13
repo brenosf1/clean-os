@@ -12,6 +12,3 @@ modules:
 
       - source: themes/adw-gtk3-dark
         destination: /etc/skel/.local/share/themes/adw-gtk3-dark
-
-      - source: bluetooth/99-controller-mode.conf
-        destination: /etc/bluetooth/main.conf.d/99-controller-mode.conf
