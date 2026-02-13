@@ -3,4 +3,4 @@ modules:
   snippets:
     - "mkdir -p /etc/skel/.config"
     - "mkdir -p /etc/skel/.local/share/themes"
-    - "mkdir -p /etc/bluetooth/main.conf.d"
+    - "rm -f /etc/bluetooth/main.conf.d/99-controller-mode.conf"
