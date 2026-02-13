@@ -38,8 +38,19 @@ name='X-GNOME-Shell-Utilities.directory'
 translate=true
 
 [org.gnome.desktop.interface]
+accent-color='red'
+icon-theme='Adwaita-red'
 gtk-theme='adw-gtk3-dark'
 color-scheme='prefer-dark'
+
+[org.gnome.desktop.background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/default.png'
+picture-uri-dark='file:///usr/share/backgrounds/default.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
 
 [org.gnome.desktop.session]
 idle-delay=uint32 3600
