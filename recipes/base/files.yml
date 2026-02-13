@@ -12,3 +12,6 @@ modules:
 
       - source: themes/adw-gtk3-dark
         destination: /etc/skel/.local/share/themes/adw-gtk3-dark
+
+      - source: scripts/morewaita.sh
+        destination: /usr/local/bin/morewaita.sh
