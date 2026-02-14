@@ -8,3 +8,4 @@ modules:
   
   scripts: 
     - post-install-remove.sh
+    - update-dconf.sh
