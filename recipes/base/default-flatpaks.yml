@@ -5,7 +5,7 @@ modules:
       scope: system
       title: Flathub (system)
       install: # system flatpaks we want all users to have and not remove
-        - com.brave.Browser
+        - org.mozilla.firefox
         - com.mattjakeman.ExtensionManager
         - com.valvesoftware.Steam
         - io.github.kolunmi.Bazaar
